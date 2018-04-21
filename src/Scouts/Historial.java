@@ -20,7 +20,7 @@ import javax.persistence.ManyToOne;
 @Entity
 @IdClass(HistorialID.class)
 public class Historial implements Serializable {
-
+ 
     private static final long serialVersionUID = 1L;
     @Id @ManyToOne private Grupo id;
     @Id @ManyToOne private Usuario credencial;

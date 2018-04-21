@@ -52,7 +52,7 @@ public class Usuario implements Serializable {
     @Column(name="email" , nullable= false , length=50)
     private String email;
     @Column(name="direccion", length=50)
-    private String direccion;
+    private String direccion; 
     @Column(name="telefono", length=50)
     private String telefono;
     @Temporal(TemporalType.DATE)

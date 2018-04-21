@@ -43,7 +43,7 @@ public class Grupo implements Serializable {
     //Relaciones
     @OneToMany(mappedBy = "id")
     private List<Historial> list_historial; 
-        
+         
    @OneToMany(mappedBy = "grupo")
     private List<Usuario> lista_usuarios;
     

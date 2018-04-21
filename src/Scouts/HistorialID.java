@@ -8,7 +8,7 @@ package Scouts;
 import java.io.Serializable;
 import java.util.Objects;
 
-
+ 
 /**
  *
  * @author sam

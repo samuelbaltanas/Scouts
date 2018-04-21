@@ -49,7 +49,7 @@ public class Evento implements Serializable {
 
     public List<Usuario> getParticipantes() {
         return participantes;
-    }
+    } 
     
     public String getNombre() {
         return nombre;

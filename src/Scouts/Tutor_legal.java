@@ -33,7 +33,7 @@ public class Tutor_legal implements Serializable {
     private String apellidos;
     @Column(name="Email", length=50)
     private String email;
-    
+     
 
     
     //Relaciones
